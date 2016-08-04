@@ -1,0 +1,21 @@
+<!doctype HTML>
+<html>
+  <head><title>Movie Logger</title></head>
+  <body>
+     <form action="/movie_entry" method="POST">
+        <p>What is your new movie?</p>
+
+          <p>
+            <input type="text" name="title" value="{{title}}"/>{{title}}
+          </p>
+          <p>
+            <input type="text" name="year" value="{{year}}"/>{{year}}
+          </p>
+          <p>
+            <input type="text" name="imdb" value="{{imdb}}"/>{{imdb}}
+          </p>
+
+        <input type="submit" value="Submit"/>
+     </form>
+  </body>
+</html>

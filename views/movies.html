@@ -1,0 +1,13 @@
+<!doctype HTML>
+<html>
+  <head><title>Movies </title></head>
+  <body>
+    <p>List of All Movies</p>
+    {% for movie in movies %}
+      <p>
+        {{movie.title}}
+      </p>
+      <span> {{movie.year}}</span>
+    {% endfor %}
+  </body>
+</html>
